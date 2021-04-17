@@ -1,7 +1,28 @@
+* {
+    background-color: #817c9c;
+    color: #e0def4;
+}
+
+h1 {
+    background-color: #59546d;
+
+}
+
+p {
+    background-color: #59546d;
+
+}
+
+.header {
+    background-color: #59546d;
+    margin: 0;
+    padding: 1rem;
+}
+
 .container {
     display: grid;
     grid-template-columns: 11rem 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2rem 2rem 1fr 1fr;
     grid-template-areas: 
         'ni nib'
         'ei eib'
@@ -9,11 +30,14 @@
         '. sb';
     width: 100vw;
     height: 100vh;
-    margin: 2rem;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    background-color: #817c9c;
 }
 
 .name-input {
     grid-area: ni;
+    
 }
 
 .name-input-box {
@@ -36,7 +60,36 @@
     grid-area: cib;
 }
 
-.sumbit-button{
+.submit-button{
     grid-area: sb;
 }
 
+.button {
+    border-style: solid;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+
+}
+
+label {
+    display: flex;
+    flex-direction: row;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    color: #fffaf3;
+    
+}
+
+input {
+    border: 2px solid #59546d;
+    background-color: #e0def4;
+    color: #26233a;
+}
+
+textarea {
+    border: 2px solid #59546d;
+    background-color: #e0def4;
+    color: #26233a;
+    width: 270px;
+    height: 140px;
+}
