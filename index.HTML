@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="CSS/style.css">
     <title>Document</title>
+    
 </head>
 
 <h1>Email Sending Instructions</h1>
@@ -15,23 +17,34 @@
 
 <body>
     <form method="POST" action="https://simple-form.com/hontailhd@gmail.com" class="form">
-        <div class="form">
+    
+    <div class="container">
+        <div class="name-input">
             <label for="name">Enter your name: </label>
+        </div>
+        <div class="name-input-box">
             <input type="text" name="name" placeholder="Your name" />
         </div>
 
-        <div class="form">
-            <label for="replyto">Enter recipient's Email: </label>
-            <input type="email" name="replyTo" placeholder="Their email" />
+        <div class="email-input">
+            <label for="From">Enter your Email: </label>
+        </div>
+        <div class="email-input-box">  
+            <input type="email" name="From" placeholder="Their email" />
         </div>
 
-        <div class="form">
-            <label for="message">Enter content of the email: </label>
-            <textarea name="message" placeholder="Your message"></textarea>
+        <div class="content-input">
+            <label for="Message">Enter content of the email: </label>
+        </div>
+        <div class="content-input-box">
+            <textarea name="Message" placeholder="Your message"></textarea>
         </div>
 
+        <div class="submit-button">
             <input type="submit" value="Send" />
-
+        </div>
+    </div>
     </form>
+
 </body>
 </html>
