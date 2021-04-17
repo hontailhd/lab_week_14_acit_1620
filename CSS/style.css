@@ -1,0 +1,41 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        'ni nib'
+        'ei eib'
+        'ci cib'
+        '. sb';
+    width: 100vw;
+    height: 100vh;
+}
+
+.name-input {
+    grid-area: ni;
+}
+
+.name-input-box {
+    grid-area: nib;
+}
+
+.email-input {
+    grid-area: ei;
+}
+
+.email-input-box {
+    grid-area: eib;
+}
+
+.content-input {
+    grid-area: ci;
+}
+
+.content-input-box {
+    grid-area: cib;
+}
+
+.sumbit-button{
+    grid-area: sb;
+}
+
