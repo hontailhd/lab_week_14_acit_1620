@@ -7,14 +7,31 @@
     <title>Document</title>
 </head>
 
-<h1>Instructions</h1>
+<h1>Email Sending Instructions</h1>
+
+<p>
+
+</p>
 
 <body>
-    <form method="POST" action="https://simple-form.com/hontailhd@gmail.com">
-        <input type="text" name="name" placeholder="Your name" />
-        <input type="email" name="replyTo" placeholder="Your email" />
-        <textarea name="message" placeholder="Your message"></textarea>
-        <input type="submit" value="Send" />
+    <form method="POST" action="https://simple-form.com/hontailhd@gmail.com" class="form">
+        <div class="form">
+            <label for="name">Enter your name: </label>
+            <input type="text" name="name" placeholder="Your name" />
+        </div>
+
+        <div class="form">
+            <label for="replyto">Enter recipient's Email: </label>
+            <input type="email" name="replyTo" placeholder="Their email" />
+        </div>
+
+        <div class="form">
+            <label for="message">Enter content of the email: </label>
+            <textarea name="message" placeholder="Your message"></textarea>
+        </div>
+
+            <input type="submit" value="Send" />
+
     </form>
 </body>
 </html>
